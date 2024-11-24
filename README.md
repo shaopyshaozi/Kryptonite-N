@@ -13,3 +13,10 @@ Inside of the Datasets directory, students will find several variants of the Kry
 ### Formatting
 
 The zip file "ImpCMLAuthorPack.zip" contains Latex source code for the formatting instructions pdf. Students are advised to simply place these files in Overleaf in order to stay within the specified formatting. Papers should be between 4-6 pages.
+
+### Directory Introduction
+
+- `./models`: Store the `.keras` file for all n with two different models WDNN and FCNN
+- `./hiddenlabels`: Store all the hidden labels for the hidden dataset using WDNN seed=42
+- `WDNN.ipynb`: training and testing process of WDNN network
+- `FCNN.ipynb`: training and testing process of FCNN network
